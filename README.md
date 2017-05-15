@@ -6,9 +6,9 @@ A minimal example project on how to get started with Laravel Mix and TypeScript.
 
 ## Adding TypeScript Support to Laravel Mix
 
-1. Install dependencies: `yarn add typescript ts-loader` (see [`package.json`](https://github.com/sebastiandedeyne/laravel-mix-webpack-example/blob/master/package.json))
-2. Create a `tsconfig.json`, or generate one with `node_modules/.bin/tsc --init` (see [`tsconfig.json`](https://github.com/sebastiandedeyne/laravel-mix-webpack-example/blob/master/tsconfig.json))
-3. Add `ts-loader` and register TypeScript file extensions in `webpack.mix.config` (see below snippet or [`webpack.mix.js`](https://github.com/sebastiandedeyne/laravel-mix-webpack-example/blob/master/webpack.mix.js))
+1. Install dependencies: `yarn add typescript ts-loader` (see [`package.json`](https://github.com/sebastiandedeyne/laravel-mix-typescript-example/blob/master/package.json))
+2. Create a `tsconfig.json`, or generate one with `node_modules/.bin/tsc --init` (see [`tsconfig.json`](https://github.com/sebastiandedeyne/laravel-mix-typescript-example/blob/master/tsconfig.json))
+3. Add `ts-loader` and register TypeScript file extensions in `webpack.mix.config` (see below snippet or [`webpack.mix.js`](https://github.com/sebastiandedeyne/laravel-mix-typescript-example/blob/master/webpack.mix.js))
 
 ```js
 mix.webpackConfig({
