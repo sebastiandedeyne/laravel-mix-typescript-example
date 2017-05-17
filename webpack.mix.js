@@ -22,6 +22,7 @@ mix.js('resources/assets/js/app.js', 'public/js')
                {
                    test: /\.tsx?$/,
                    loader: 'ts-loader',
+                   options: { appendTsSuffixTo: [/\.vue$/] },
                    exclude: /node_modules/,
                },
            ],

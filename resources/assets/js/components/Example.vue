@@ -14,9 +14,9 @@
     </div>
 </template>
 
-<script>
+<script lang="ts">
     export default {
-        mounted() {
+        mounted(): void {
             console.log('Component mounted.')
         }
     }
